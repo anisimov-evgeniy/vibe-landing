@@ -63,7 +63,7 @@ const MarketingPlanSection = () => {
             ))}
           </div>
 
-          <img className="rounded-[30px] col-span-12 object-cover block lg:hidden" src="/marketing/mobile.png" alt="Маркетинг-план FORVIBE — инструменты для роста дохода партнёра" />
+          <img className="rounded-[30px] col-span-12 object-cover block lg:hidden" src="/marketing/Card.png" alt="Маркетинг-план FORVIBE — инструменты для роста дохода партнёра" />
           <div className="hidden lg:flex lg:col-span-3 lg:relative lg:items-center lg:justify-center scale:150 xl:scale-120 mt-5">
             <img
               src="/marketing/chair.png"
