@@ -1,22 +1,21 @@
 "use client";
 
-import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Icon from "@/components/ui/Icon";
 
 type FaqItemProps = {
   question: string;
   answer: string;
+  isOpen: boolean;
+  onToggle: () => void;
 };
 
-const FaqItem = ({ question, answer }: FaqItemProps) => {
-  const [isOpen, setIsOpen] = useState(false);
-
+const FaqItem = ({ question, answer, isOpen, onToggle }: FaqItemProps) => {
   return (
     <div className="rounded-[20px] bg-light overflow-hidden">
       <button
         type="button"
-        onClick={() => setIsOpen((prev) => !prev)}
+        onClick={onToggle}
         aria-expanded={isOpen}
         className="flex w-full items-center justify-between gap-4 px-5 xs:px-8 pb-4 pt-4 xs:py-6 text-left cursor-pointer"
       >

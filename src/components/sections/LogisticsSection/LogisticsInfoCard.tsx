@@ -21,7 +21,7 @@ const LogisticsInfoCard = ({
         className || ""
       }`}
     >
-      <h3 className="max-w-[420px] font-uncage uppercase leading-[1.1] text-xl xs:text-[28px] text-graphite">
+      <h3 className="max-w-[90%] xs:max-w-[420px] font-uncage uppercase leading-[1.1] text-xl xs:text-[28px] text-graphite">
         {title}
       </h3>
 

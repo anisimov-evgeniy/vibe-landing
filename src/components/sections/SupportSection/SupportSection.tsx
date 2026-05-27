@@ -12,7 +12,7 @@ const SUPPORT_ITEMS = [
   },
   {
     label: "Обучение:",
-    bullets: ["работа с заказами (выдача и упаковка)"],
+    bullets: ["работа с заказами (выдача и упаковка)"],
   },
   {
     label: "Маркетинг:",
@@ -33,7 +33,7 @@ const SupportSection = () => {
     <section id="tools" className="bg-light py-17 xs:py-25 lg:py-20 md:py-15 rounded-t-[30px] -mt-6">
       <div className="max-w-[1380px] mx-auto px-5">
         <h2 className="text-center font-uncage uppercase leading-[1.1] text-[26px] xs:text-[40px] text-graphite lg:text-[34px] md:text-[28px]">
-          ИНСТРУМЕНТЫ И ПОДДЕРЖКА ОТ КОМПАНИИ
+          ИНСТРУМЕНТЫ И ПОДДЕРЖКА ОТ КОМПАНИИ
         </h2>
 
         <div className="mt-10 xs:mt-15 rounded-[30px] bg-white lg:mt-10 md:rounded-[24px]">

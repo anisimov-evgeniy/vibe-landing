@@ -7,7 +7,7 @@ const FEATURES = [
     number: 1,
     title: "ПРОСТРАНСТВО, КОТОРОЕ:",
     description:
-      "Работает на ваш товарооборот, усиливает структуру, кратно увеличивает доход по маркетинг-плану",
+      "Работает на ваш товарооборот, усиливает структуру, кратно увеличивает доход по маркетинг-плану",
   },
   {
     number: 2,
@@ -43,8 +43,8 @@ const ForvibePointSection = () => {
       </div>
 
       <div id="about" className="max-w-[1380px] mx-auto px-5 pt-15 xs:pt-20">
-        <h2 className="max-w-[830px] xs:mx-auto text-left lg:text-center font-uncage uppercase leading-[1.1] text-[26px] lg:text-[32px] text-graphite w-[90%] xs:w-auto">
-          FORVIBE ПОИНТ — ЭТО ТОЧКА ВЫДАЧИ ЗАКАЗОВ И ОФИС,
+        <h2 className="w-full max-w-none xs:mx-auto xs:max-w-[830px] text-left lg:text-center font-uncage uppercase leading-[1.1] text-[22px] lg:text-[32px] text-graphite">
+          FORVIBE ПОИНТ — ЭТО точка выдачи заказов и офис
           <span className="text-orange">
             {" "}
             ОБЪЕДИНЁННЫЕ В ЕДИНУЮ СИСТЕМУ, ПЕРЕДАЮЩУЮ НАСТОЯЩИЙ ВАЙБ
@@ -57,9 +57,9 @@ const ForvibePointSection = () => {
               title={
                 <>
                   FORVIBE ПОИНТ —
-                  <span className="block mt-3 lg:mt-0 lg:inline">
+                  <span className="block mt-3 lg:mt-0 lg:inline uppercase">
                     {" "}
-                    СТИЛЬ В КАЖДОЙ ДЕТАЛИ
+                    стиль в каждой детали
                   </span>
                 </>
               }
@@ -71,7 +71,7 @@ const ForvibePointSection = () => {
 
             <PointCard
               title="ЛОКАЦИЯ"
-              description="брендированные локации, которые притягивают и передают настоящий вайб"
+              description="брендированные локации, которые притягивают и передают настоящий вайб"
               bgClassName="bg-light"
               className="col-span-6 lg:col-span-3 lg:min-h-[320px]"
             />
@@ -92,7 +92,7 @@ const ForvibePointSection = () => {
 
             <PointCard
               title="АТМОСФЕРА"
-              description="атмосфера, к которой хочется прикоснуться"
+              description={<>атмосфера, <br className="inline sm:hidden" /> к которой хочется прикоснуться</>}
               bgClassName="bg-lime"
               className="col-span-6 lg:col-span-3 lg:min-h-[320px] order-last lg:order-none"
             />

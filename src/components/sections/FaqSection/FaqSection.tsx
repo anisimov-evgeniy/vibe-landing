@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import FaqItem from "./FaqItem";
 
 const FAQ_ITEMS = [
@@ -39,6 +42,12 @@ const FAQ_ITEMS = [
 ];
 
 const FaqSection = () => {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const handleToggle = (index: number) => {
+    setOpenIndex((prev) => (prev === index ? null : index));
+  };
+
   return (
     <section id="faq" className="bg-white py-15 xs:py-25 rounded-t-[30px] -mt-4">
       <div className="max-w-[1380px] mx-auto px-5">
@@ -48,7 +57,13 @@ const FaqSection = () => {
 
         <div className="mt-10 xs:mt-15 flex flex-col gap-5">
           {FAQ_ITEMS.map((item, i) => (
-            <FaqItem key={i} question={item.question} answer={item.answer} />
+            <FaqItem
+              key={i}
+              question={item.question}
+              answer={item.answer}
+              isOpen={openIndex === i}
+              onToggle={() => handleToggle(i)}
+            />
           ))}
         </div>
       </div>

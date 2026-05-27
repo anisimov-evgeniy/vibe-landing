@@ -34,9 +34,7 @@ const HeroSection = () => {
 
           <div className="mt-6 xs:mt-8 lg:mt-30 2xl:mt-40 flex flex-col lg:flex-row items-center lg:items-end justify-between gap-6 lg:gap-10">
             <p className="font-manrope text-center lg:text-left max-w-[455px] mx-auto lg:mx-0 text-base lg:text-xl leading-[140%] text-graphite lg:text-white font-medium">
-              Откройте стильное пространство FORVIBE
-              <br className="hidden lg:inline" /> в своём городе и запустите
-              новую скорость масштабирования бизнеса
+              Откройте стильное пространство FORVIBE в своём городе и запустите новую скорость масштабирования бизнеса
             </p>
 
             <Button

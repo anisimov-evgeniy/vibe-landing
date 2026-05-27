@@ -2,7 +2,7 @@ import Button from "@/components/ui/Button";
 
 const BenefitThirdCard = () => {
   return (
-    <div className="rounded-[30px] p-8 lg:p-[10px] bg-white">
+    <div className="rounded-[30px] p-8 lg:p-[10px] bg-white lg:shadow-[0_-8px_24px_rgba(0,0,0,0.05)]">
       <div className="grid lg:grid-cols-2 gap-10 xs:gap-4 xs:min-h-[480px]">
         <div className="lg:p-15 flex flex-col justify-between gap-6 xs:gap-0">
           <div className="font-uncage text-xl xs:text-[32px] leading-[1.1]">

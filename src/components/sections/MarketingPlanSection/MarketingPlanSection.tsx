@@ -47,7 +47,7 @@ const MarketingPlanSection = () => {
         <h2 className="text-center font-uncage uppercase leading-[1.1] text-[26px] xs:text-[40px] text-graphite">
           <span className="text-lime">АКТИВИРУЙТЕ ВОЗМОЖНОСТИ</span>
           <br />
-          МАРКЕТИНГ-ПЛАНА НА МАКСИМУМ
+          МАРКЕТИНГ-ПЛАНА НА МАКСИМУМ
         </h2>
 
         <div className="mt-15 grid grid-cols-12 gap-5 xs:gap-10 relative">

@@ -4,7 +4,7 @@ import BoosterStepCard from "./BoosterStepCard";
 const STEPS = [
   {
     id: "1",
-    text: "Проводите презентации и показываете ассортимент",
+    text: "Проводите презентации и показываете ассортимент",
   },
   {
     id: "2",
@@ -12,11 +12,11 @@ const STEPS = [
   },
   {
     id: "3",
-    text: "Делает следующий заказ самостоятельно и приглашает знакомых",
+    text: "Делает следующий заказ самостоятельно и приглашает знакомых",
   },
   {
     id: "4",
-    text: "Ваш оборот и оборот структуры стабильно растут",
+    text: "Ваш оборот и оборот структуры стабильно растут",
   },
 ];
 
@@ -25,7 +25,7 @@ const BoosterSection = () => {
     <section className="overflow-hidden rounded-t-[30px] rounded-b-none bg-[radial-gradient(circle_at_top,_#f8a7d3_0%,_#f54ca7_55%,_#ff3f93_100%)] px-5 py-17 xs:py-25">
       <div className="mx-auto max-w-[1340px]">
         <h2 className="mx-auto max-w-[920px] text-center font-uncage text-[26px] xs:text-[40px] uppercase leading-[1.1] text-white">
-          FORVIBE ПОИНТ В ГОРОДЕ = БУСТЕР ТОВАРООБОРОТА ВАШЕЙ СТРУКТУРЫ
+          FORVIBE ПОИНТ В ГОРОДЕ = БУСТЕР ТОВАРООБОРОТА ВАШЕЙ СТРУКТУРЫ
         </h2>
 
         <div className="mt-10 xs:mt-15 grid grid-cols-2 lg:grid-cols-4 gap-5">

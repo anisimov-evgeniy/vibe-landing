@@ -3,7 +3,7 @@ import React from "react";
 
 const BenefitSecondCard = () => {
   return (
-    <div className="rounded-[30px] p-8 lg:p-[10px] bg-white">
+    <div className="rounded-[30px] p-8 lg:p-[10px] bg-white lg:shadow-[0_-8px_24px_rgba(0,0,0,0.05)]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-4 lg:min-h-[480px]">
         <div className="lg:p-15 flex flex-col justify-between gap-6 lg:gap-0">
           <div className="font-uncage text-[20px] xs:text-[32px] leading-[1.1]">

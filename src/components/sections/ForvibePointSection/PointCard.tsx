@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 type PointCardProps = {
   title?: ReactNode;
-  description?: string;
+  description?: string | ReactNode;
   image?: string;
   imageAlt?: string;
   bgClassName?: string;
@@ -40,7 +40,7 @@ const PointCard = ({
       } ${bgClassName || ""} ${className || ""}`}
     >
       <h3
-        className={`font-uncage text-left xs:text-center uppercase leading-[1.1] text-lg s:text-xl xs:text-2xl text-black ${
+        className={`font-uncage text-left uppercase leading-[1.1] text-lg s:text-xl xs:text-2xl text-black ${
           titleClassName || ""
         }`}
       >
