@@ -25,14 +25,14 @@ const ClientFlowSection = () => {
     <section className="bg-light py-15 xs:py-25 rounded-t-[30px]">
       <div className="max-w-[1380px] mx-auto px-5">
         <h2 className="font-uncage text-left uppercase leading-[1.1] text-[26px] xs:text-[40px] text-graphite">
-          ВЫ ФОКУСИРУЕТЕСЬ НА СЕТИ, А ТОЧКА{" "} <br />
+          ВЫ ФОКУСИРУЕТЕСЬ НА СЕТИ, А ТОЧКА{" "} <br />
           <span className="text-orange">
             ГЕНЕРИРУЕТ НЕПРЕРЫВНЫЙ ПОТОК КЛИЕНТОВ
           </span>
         </h2>
 
-        <p className="mt-6 font-manrope text-lg lg:text-2xl text-gray text-center lg:text-left">
-          Вам необходимо выполнить 4 простых шага:
+        <p className="mt-6 font-manrope text-lg lg:text-2xl text-gray lg:text-left">
+          Вам необходимо выполнить <br className="inline sm:hidden" /> 4 простых шага:
         </p>
 
         <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-4">
