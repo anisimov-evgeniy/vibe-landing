@@ -6,13 +6,15 @@ const BenefitThirdCard = () => {
       <div className="grid lg:grid-cols-2 gap-10 xs:gap-4 xs:min-h-[480px]">
         <div className="lg:p-15 flex flex-col justify-between gap-6 xs:gap-0">
           <div className="font-uncage text-xl xs:text-[32px] leading-[1.1]">
-            Вы не платите роялти — компания платит Вам 15%
+            <span className="block whitespace-nowrap">Вы&nbsp;не&nbsp;платите</span>
+            <span className="block whitespace-nowrap">роялти&nbsp;— компания</span>
+            <span className="block whitespace-nowrap">платит вам&nbsp;15%</span>
           </div>
           <div className="flex justify-between flex-col gap-10">
             <div className="flex gap-10 items-center flex-wrap">
               <span className="font-manrope text-base xs:text-lg leading-[1.4] text-graphite">
                 Вы создаёте офлайн-центр масштабирования структуры, где основной
-                доход формируется автоматически.
+                доход формируется автоматически
               </span>
               <Button className="xs:max-w-[260px]" variant="primary">
                 Узнать подробнее

@@ -12,7 +12,7 @@ const SupportItem = ({
   labelClassName = "text-gray",
 }: SupportItemProps) => {
   return (
-    <div className={`rounded-[20px] p-5 md:p-4 ${bgClassName}`}>
+    <div className={`rounded-[20px] p-5 md:px-4 md:pt-4 md:pb-8 ${bgClassName}`}>
       <div className="flex gap-5 xl:gap-8 2xl:gap-10 flex-col lg:flex-row">
         <div className="w-full lg:w-[150px] xl:w-[200px] shrink-0 ">
           <span
