@@ -1,6 +1,8 @@
+import { ReactNode } from "react";
+
 type SupportItemProps = {
   label: string;
-  bullets: string[];
+  bullets: (string | ReactNode)[];
   bgClassName?: string;
   labelClassName?: string;
 };
